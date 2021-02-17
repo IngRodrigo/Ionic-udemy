@@ -1,0 +1,3 @@
+se creo medainte el comando ng g m pages/posts --routing
+                            ng g c pages/posts
+el --routing le indica que tambien genere un archivo routing para los posts

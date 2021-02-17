@@ -1,0 +1,15 @@
+<h1>Todos los posts</h1>
+<ul class="list-group">
+    <app-post *ngFor="let mensaje of mensajes"
+    [mensaje]="mensaje"
+    (clickPost)="escucharClick($event)">
+    <!-- Se envio el parametro mensaje con los datos al componente hijo en este caso post sin s -->
+    <!-- clickPost viene del componente hijo y escuchar evento es un metodo de este componente -->
+</app-post>
+    <!-- <li class="list-group-item"
+    *ngFor="let mensaje of mensajes">
+        <h2>{{mensaje.title}}</h2>
+        <p>{{mensaje.body}}</p>
+        <hr>
+    </li> -->
+</ul>

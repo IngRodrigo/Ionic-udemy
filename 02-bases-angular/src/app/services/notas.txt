@@ -1,0 +1,16 @@
+//////////////////////
+El directorio services con el contenido data.services.ts se crea mediante el comando
+ng g s services/data --skipTests=true
+--skipTests=true especifica que no queremos el archivo de pruebas
+/////////////////////////////
+
+PARA REALIZAR PETICIONES HTTP SE DEBE IMPORTAR EN EL app.module.ts
+import {HttpClientModule} from '@angular/common/http';
+y en los imports
+ 
+ imports: [
+    BrowserModule,
+    AppRoutingModule,
+    PagesModule,
+ -->HttpClientModule
+  ],
