@@ -20,6 +20,36 @@ export class InicioPage implements OnInit {
       icon:"logo-apple-appstore",
       name:"Alert",
       redirecto:'/alert'
+    },
+    {
+      icon:"person-circle-outline",
+      name:"Avatar",
+      redirecto:'/avatar'
+    },
+    {
+      icon:"radio-button-on-outline",
+      name:"Botones",
+      redirecto:'/buttons'
+    },
+    {
+      icon:"card-outline",
+      name:"Card",
+      redirecto:'/card'
+    },
+    {
+      icon:"checkmark-circle-outline",
+      name:"Check",
+      redirecto:'/check'
+    },
+    {
+      icon:"calendar-outline",
+      name:"Date Time",
+      redirecto:'/date-time'
+    },
+    {
+      icon:"car-outline",
+      name:"Fab",
+      redirecto:'/fab'
     }
   ];
   constructor() { }

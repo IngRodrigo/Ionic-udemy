@@ -1,0 +1,34 @@
+<ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-back-button color="primary"
+    defaultHref="/"
+    >
+      <ion-icon slot="start" name="add"></ion-icon>
+      Click me
+    </ion-back-button>
+  </ion-buttons>
+  <!-- medainte el input que colocamos en header.ts obligamos a mandar un titulo cada vez que 
+  llamemos a este componente -->
+  <ion-title>Avatar</ion-title>
+  <ion-avatar slot="end">
+    <img src="/assets/icon/stan-lee.jpg">
+  </ion-avatar>
+</ion-toolbar>
+
+<ion-content>
+
+  <ion-chip>
+    <ion-avatar>
+      <img src="/assets/icon/stan-lee.jpg">
+    </ion-avatar>
+    <ion-label>Chip Avatar</ion-label>
+  </ion-chip>
+ <ion-list>
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="/assets/icon/stan-lee.jpg">
+    </ion-avatar>
+    <ion-label>Item Avatar</ion-label>
+  </ion-item>
+ </ion-list>
+</ion-content>
